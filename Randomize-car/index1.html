@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Win a car</title>
+
+<style>
+
+/* Basic CSS comment */
+
+body {
+
+background: #808080;
+
+color: white;
+
+width: 960px;
+
+margin: 0 auto;
+
+font-size: 30px;
+
+color: black;
+
+}
+
+h1 {
+
+font-size: 80px;
+
+color: #333 ;
+
+}
+
+</style>
+
+<script>
+var username = prompt ("Your name")
+
+var car = ["bmw","audi","nano"]
+
+
+
+var randomCar =Math.floor(Math.random() * car.length)
+
+if (username === "Rithu" || username === "Chris") {
+
+document.write("<h1><strong>Hello " + username + "! You are the winner of new: " + car[randomCar] + "!</strong></h1>");
+
+
+
+} else {
+
+document.write("<h1>Hello " + username + "!</h1>");
+
+}
+</script>
+</head>
+
+ 
+
+<body>
+
+<p><h2>We're happy for you!!!</h2></p>
+
+<img src="images/Oprah.jpg">
+
+</html>
